@@ -24,7 +24,7 @@ function setup() {
 
     stone = new Stone(200, 50);
 
-    slingshot = new SlingShot(stone.body, { x: 200, y: 340 });
+    slingShot = new SlingShot(stone.body, { x: 200, y: 340 });
 
     block1 = new rectBlock(590, 580, 60, 60, "sprites/iceBlock1.png");
     block2 = new rectBlock(592, 550, 60, 60, "sprites/iceBlock1.png");
@@ -114,5 +114,5 @@ function mouseDragged() {
 
 
 function mouseReleased() {
-    slingshot.fly();
+    slingShot.fly();
 }
