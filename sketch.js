@@ -96,7 +96,7 @@ function draw() {
 	log3.display();
 	log4.display();
 
-    slingshot.display();
+    slingShot.display();
 	
 	textSize(20);
 	fill("white");
